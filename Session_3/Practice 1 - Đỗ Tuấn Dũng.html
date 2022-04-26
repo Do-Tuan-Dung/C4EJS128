@@ -8,7 +8,7 @@
     <title>Luyện tập 1 - Đỗ Tuấn Dũng</title>
     <style>
         .GreenSect {
-            background-color: green
+            background-color: #4CAF50
         }
 
         .BlackSect {
@@ -28,7 +28,8 @@
 </head>
 
 <body style="border: 3px; border-color: white; border-style: solid">
-    <div class="GreenSect">
+<!--Header(s)-->
+    <div class="GreenSect" id="Header">
         <table style="width: 100%; text-align: center; font-family: Arial, Helvetica, sans-serif">
             <tbody>
                 <tr>
@@ -58,8 +59,9 @@
             </tbody>
         </table>
     </div>
-
-    <div class="BlackSect">
+<!--Header(e)-->
+<!--Body(s)-->
+    <div class="BlackSect" id="Body">
         <section style="color: white; font-size: 35px; height: 120px; line-height: 120px;">
             <b>Hi MINDX!</b>
         </section>
@@ -90,7 +92,7 @@
         <section style="height: 50px;">lmao</section>
     </div>
 
-    <div class="GreySect">
+    <div class="GreySect" id="Body">
         <section style="font-size: 35px; font-family: Arial, Helvetica, sans-serif; height: 120px; line-height: 80px">
             Projects
             <hr color="black" style="width: 100px; margin-top: 0px; margin-bottom: 0px;" />
@@ -135,7 +137,7 @@
         <section style="height: 20px; color: silver">lmao</section>
     </div>
 
-    <div class="BlackSect">
+    <div class="BlackSect" id="Body">
         <section
             style="color: forestgreen; font-size: 35px; font-family: Arial, Helvetica, sans-serif ;height: 120px; line-height: 80px;">
             Achievements
@@ -158,7 +160,7 @@
         <section style="height: 30px; color: black;">lmao</section>
     </div>
 
-    <div class="GreySect">
+    <div class="GreySect"  id="Body">
         <section style="font-size: 35px; font-family: Arial, Helvetica, sans-serif; height: 60px; line-height: 60px">
             Contact
         </section>
@@ -166,22 +168,22 @@
         <section style="color: silver; height: 60px">lmao</section>
         <form action="https://www.reddit.com/r/place/?cx=804&cy=729&px=902&ts=1649066627221" method="get" id="contact">
             <table
-                style="background-color: black; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: left; width: 50%; margin-left: 25%">
+                style="background-color: black; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: left ; width: 50%; margin-left: 25%">
                 <tbody>
-                    <tr style="height: 50px">
-                        <td><label for="name">Name:</label></td>
+                    <tr style="height: 50px;">
+                        <td style="padding-left: 10px;"><label for="name">Name:</label></td>
                         <td><input type="text" id="name" name="Name" size="50" /></td>
                     </tr>
                     <tr style="height: 50px">
-                        <td><label for="email">EMail:</label></td>
-                        <td><input type="text" id="email" name="EMail" size="50" /></td>
+                        <td style="padding-left: 10px;"><label for="email">EMail:</label></td>
+                        <td><input type="email" id="email" name="EMail" size="50" /></td>
                     </tr>
                     <tr style="height: 50px">
-                        <td><label for="no">Number:</label></td>
-                        <td><input type="text" id="no" name="Number" size="25" /></td>
+                        <td style="padding-left: 10px;"><label for="no">Number:</label></td>
+                        <td><input type="number" id="no" name="Number" size="25" /></td>
                     </tr>
                     <tr style="height: 50px">
-                        <td><label for="mess">Message:</label></td>
+                        <td style="padding-left: 10px;"><label for="mess">Message:</label></td>
                         <td><textarea id="mess" name="Message" rows="7" cols="50"></textarea></td>
                     </tr>
                     <tr style="height: 60px">
@@ -195,11 +197,44 @@
         </table>
         <section style="color: silver; height: 50px">lmao</section>
     </div>
-
-    <div class="GreenSect">
-        <table></table>
+<!--Body(e)-->
+<!--Footer(s)-->
+    <div class="GreenSect" id="Footer">
+        <table style="width: 100%; height: 50px; text-align: left;">
+            <thead>
+                <tr>
+                    <th width="5%"></th>
+                    <th>
+                        LinkedIn
+                        <a href="https://pbs.twimg.com/media/EYwG5-7WsAECFJE?format=png&name=small"
+                            style="text-decoration: none">➲</a>
+                    </th>
+                    <th style="color: white;">|</th>
+                    <th>
+                        GitHub
+                        <a href="https://pbs.twimg.com/media/EYwG5-7WsAECFJE?format=png&name=small"
+                            style="text-decoration: none">➲</a>
+                    </th>
+                </tr>
+            </thead>
+        </table>
     </div>
 
+    <div class="BlackSect" id="Footer">
+        <section style="color: black;">lmao</section>
+        <table style="text-align: left; font-size: 25px ;color: forestgreen; width: 100%;">
+            <tbody>
+                <tr>
+                    <td style="width: 5%;"></td>
+                    <td style="font-family: cursive">©Copyright 2050 by nobody. All rights reserved.</td>
+                    <td style="font-family: Arial, Helvetica, sans-serif;"><b>
+                        <a href="#Header" style="text-decoration: none; color: forestgreen;">TOP</a>
+                    </b></td>
+                </tr>
+            </tbody>
+        </table>
+        <section style="color: black;">lmao</section>
+    </div>
+<!--Footer(e)-->
 </body>
-
 </html>

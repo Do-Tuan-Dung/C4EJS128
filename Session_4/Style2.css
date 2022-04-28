@@ -1,0 +1,60 @@
+body {
+    background-color: lightgreen;
+    margin: 0px 250px 0px 250px
+}
+
+header {
+    background-color: forestgreen;
+    color: aliceblue;
+    padding-left: 350px;
+    padding-top: 10px;
+    height: 60px;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: 550;
+}
+
+article {
+    color: #333333;
+    border: 5px solid #333333;
+    border-radius: 16px;
+    margin: auto 350px auto 350px;
+    padding: 10px;
+    font: 13px Arial;
+}
+
+h1 {
+    font: 30px sans-serif;
+    padding-left: 340px;
+    margin: 10px;
+}
+
+h2 {
+    color: forestgreen;
+    font-size: 8;
+    font-weight: 450;
+}
+
+em {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 1px 4px 1px 1px;
+}
+
+img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}

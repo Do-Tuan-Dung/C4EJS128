@@ -6,7 +6,7 @@ body {
 header {
     background-color: forestgreen;
     color: aliceblue;
-    padding-left: 350px;
+    padding-left: 250px;
     padding-top: 10px;
     height: 60px;
     font-size: 35px;
@@ -14,18 +14,29 @@ header {
     font-weight: 550;
 }
 
+footer {
+    background-color: forestgreen;
+    color: aliceblue;
+    padding-left: 250px;
+    height: 70px;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: 550;
+}
+
 article {
     color: #333333;
-    border: 5px solid #333333;
+    border: 2px solid #43cea2;
     border-radius: 16px;
-    margin: auto 350px auto 350px;
+    box-shadow: 4px 4px 4px grey;
+    margin: auto 250px 5px 250px;
     padding: 10px;
     font: 13px Arial;
 }
 
 h1 {
     font: 30px sans-serif;
-    padding-left: 340px;
+    padding-left: 240px;
     margin: 10px;
 }
 
@@ -57,4 +68,20 @@ a:link {
     font-size: 8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+}
+
+a:visited {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+
+a:hover, a:active {
+    background-color: #185a9d;
 }

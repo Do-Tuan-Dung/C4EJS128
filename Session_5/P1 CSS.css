@@ -1,0 +1,24 @@
+body {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/54cd5a62-8b2a-44f8-a55a-4c1a62028228/VN-en-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat;
+    font: 550 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+body::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Logo {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/320px-Netflix_2015_logo.svg.png') no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 44px;
+    margin: 20px 0px 0px 30px;
+    border: 0px solid transparent;
+}

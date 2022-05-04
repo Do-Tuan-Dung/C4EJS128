@@ -1,6 +1,7 @@
 body {
     background: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/54cd5a62-8b2a-44f8-a55a-4c1a62028228/VN-en-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat;
-    font: 550 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #737373;
+    font: 450 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 body::after {
@@ -19,6 +20,43 @@ body::after {
     background-size: contain;
     width: 160px;
     height: 44px;
-    margin: 20px 0px 0px 30px;
+    margin: 25px 0px 0px 50px;
     border: 0px solid transparent;
+}
+
+.LoginBox {
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: content-box;
+    width: 314px;
+    height: 560px;
+    margin: 15px auto auto auto;
+    padding: 60px 68px 40px 68px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 28px;
+    font: 550 30px sans-serif;
+}
+
+.LoginInput {
+    width: 314px;
+    height: 50px;
+    margin-bottom: 16px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+
+.LoginButton {
+    background-color: #e50914;
+    color: white;
+    box-sizing: content-box;
+    width: 282px;
+    height: 16px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    font: bolder 16px sans-serif;
+    
 }

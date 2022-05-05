@@ -1,0 +1,87 @@
+body {
+    background-color: lightgrey;
+    color: #79838B;
+    font: 500 14px sans-serif;
+}
+
+.SectWrap {
+    display: flex;
+    width: 790px;
+    justify-content: space-between;
+    margin: 80px auto auto auto;
+}
+
+.Subtitle {
+    font-size: 10px;
+    margin: 0px 0px 2px 0px;
+}
+
+.Master {
+    background-color: #E2F4FF;
+    box-sizing: border-box;
+    width: 375px;
+    height: 812px;
+    border-radius: 20px;
+    padding: 50px 20px 0px 20px;
+}
+
+.Head {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    width: 335px;
+    height: 250px;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 154px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.HeadCont {
+    width: 154px;
+    height: 230px;
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+h2 {
+    color: #6B7379;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #B8C5D0;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.Nav {
+    display: flex;
+    background: white;
+    color: #44C4FE;
+    box-sizing: border-box;
+    width: 194px;
+    height: 32px;
+    justify-content: space-around;
+    border-radius: 16px;
+    margin: 20px 71px 20px auto;
+    padding: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.TextBox {
+    background-color: white;
+    padding: 13px 17px 15px 17px;
+}

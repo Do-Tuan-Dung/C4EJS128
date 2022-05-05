@@ -17,20 +17,64 @@
     <div class="LoginBox">
         <h1>Sign In</h1>
         <form action="https://www.netflix.com/vn-en/browse/genre/34399" target="_blank" method="post" id="signin">
-            <label>
-                <input class="LoginInput" type="text">
-            </label>
+            <input class="LoginInput" type="text" placeholder="Email or phone number">
 
-            <label>
-                <input class="LoginInput" type="text">
-            </label>
+            <input class="LoginInput" type="text" placeholder="Password">
 
-            <button class="LoginButton">
+            <button class="LoginButton" type="submit" form="signin" value="Submit">
                 Sign In
             </button>
         </form>
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 80px;">
+            <div>
+                <input type="checkbox" id="Remember" name="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <div><a class="Help" href="https://www.netflix.com/vn-en/LoginHelp">Need help?</a></div>
+        </div>
+
+        <p class="Sect1">
+            New to Netflix?
+            <a href="https://www.netflix.com/" class="SignUp">Sign up now</a>.
+        </p>
+
+        <p class="Sect2">
+            This page is protected by Google reCAPTCHA to ensure you're not a bot.
+        </p>
+
+        <p class="Sect2">
+            The information collected by Google reCAPTCHA is subject to the Google <a
+                href="https://policies.google.com/privacy" class="Aux">Privacy Policy</a> and <a
+                href="https://policies.google.com/terms" class="Aux">Terms of Service</a>, and is used for providing,
+            maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for
+            personalized advertising by Google).
+        </p>
     </div>
 
+    <div class="Foot1">
+        <div class="Foot2">
+            <div><a class="Bottom1" href="https://help.netflix.com/en/contactus">Questions? Contact us.</a></div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <div><a class="Bottom2" href="https://help.netflix.com/en/node/412">FAQ</a></div>
+                <div><a class="Bottom2" href="https://help.netflix.com/en/">Help Center</a></div>
+                <div><a class="Bottom2" href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></div>
+                <div><a class="Bottom2" href="https://help.netflix.com/legal/privacy">Privacy</a></div>
+            </div>
+
+            <div style="display: flex;">
+                <div><a class="Bottom2" href="https://www.netflix.com/vn-en/login#" style="margin-right: 133px;">Cookie
+                        Preferences</a></div>
+                <div><a class="Bottom2" href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></div>
+            </div>
+
+            <select class="Language" name="Language" id="language">
+                <option value="vietnamese">Tiếng Việt</option>
+                <option value="english" selected="selected">English</option>
+            </select>
+        </div>
+    </div>
 
 </body>
 

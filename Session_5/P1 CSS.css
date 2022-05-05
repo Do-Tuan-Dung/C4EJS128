@@ -1,7 +1,8 @@
 body {
-    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/54cd5a62-8b2a-44f8-a55a-4c1a62028228/VN-en-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat;
-    color: #737373;
-    font: 450 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat;
+    color: #b3b3b3;
+    font: 450 13px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 body::after {
@@ -29,17 +30,18 @@ body::after {
     box-sizing: content-box;
     width: 314px;
     height: 560px;
-    margin: 15px auto auto auto;
+    margin: 15px auto 90px auto;
     padding: 60px 68px 40px 68px;
 }
 
 h1 {
     color: white;
-    margin-bottom: 28px;
+    margin: 0px auto 28px auto;
     font: 550 30px sans-serif;
 }
 
 .LoginInput {
+    background-color: #333;
     width: 314px;
     height: 50px;
     margin-bottom: 16px;
@@ -58,5 +60,80 @@ h1 {
     padding: 16px;
     border-radius: 6px;
     font: bolder 16px sans-serif;
-    
+}
+
+.LoginButton:hover {
+    background-color: #d1673d;
+}
+
+.Help {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Sect1 {
+    color: #737373;
+    margin-bottom: 0px;
+    font: 500 16px sans-serif;
+}
+
+.Sect2 {
+    color: #8c8c8c;
+    margin: 16px 0px 0px 0px;;
+}
+
+.SignUp {
+    color: white;
+    text-decoration: none;
+}
+
+.Aux {
+    color: #0080ff;
+    text-decoration: none;
+}
+
+.Foot1 {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.Foot2 {
+    width: 1000px;
+    margin: 30px auto 0px auto;
+}
+
+.Bottom1 {
+    display: block;
+    color: #757575;
+    width: 1000px;
+    margin: 0px auto 30px auto;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Bottom2 {
+    display: block;
+    color: #757575;
+    width: 150px;
+    margin: 0px auto 15px auto;
+    font: 13px sans-serif;
+    text-decoration: none;
+}
+
+.Language {
+    background-color: black;
+    color: #757575;
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }

@@ -40,6 +40,11 @@ h1 {
     font: 550 30px sans-serif;
 }
 
+input[type=text],
+select {
+    padding-left: 15px;
+}
+
 .LoginInput {
     background-color: #333;
     width: 314px;
@@ -83,7 +88,8 @@ a:hover {
 
 .Sect2 {
     color: #8c8c8c;
-    margin: 16px 0px 0px 0px;;
+    margin: 16px 0px 0px 0px;
+    ;
 }
 
 .SignUp {

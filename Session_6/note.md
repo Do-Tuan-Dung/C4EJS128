@@ -13,3 +13,6 @@
   * Boolean (true/false)
   * Null
   * Undefined
+ + Non-premitive data value:
+  * Object
+  * Array

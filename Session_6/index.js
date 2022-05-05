@@ -15,4 +15,22 @@ console.log(SomeNumber * 10)
 // ** for square
 // += -= *= /= adding/substracting (able with strings too)
 // ++ -- for calculation before/after the current command (position relative to data dependent)
-// == for comparison
+// == >= <= ? != comparison operators
+
+let Person = {
+    Name: "sus",
+    BOD: "06.09.2000",
+}
+
+const h1 = document.querySelector('h1')
+h1.innerText = "bruh"
+
+//test
+let X = 20;
+let Y = 10;
+
+let result = X++ + ++X + Y-- - --Y
+
+console.log(X)
+console.log(Y)
+console.log(result)

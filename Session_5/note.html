@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .LoginInputWrap {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .LoginInput {
+            height: 50px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .LoginInput::placeholder {
+            opacity: 0;
+        }
+
+        .LoginInput:not:(placeholder-shown) ~ .Placeholder {
+            transform: translateY(calc(-50% + -10px));
+            font-size: 10px;
+        }
+
+        .LoginInput:focus ~ .Placeholder {
+            transform: translateY(calc(-50% + -10px));
+            font-size: 10px;
+        }
+
+        .Placeholder {
+            color: red;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15px;
+            transition: all .2s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="LoginInputWrap">
+        <input class="LoginInput" type="text" placeholder="Email or phone number">
+        <span class="Placeholder">Email or phone number</span>
+    </div>
+
+    https://github.com/cuongvu12a/C4EJS128
+</body>
+</html>

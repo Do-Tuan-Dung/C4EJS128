@@ -36,11 +36,15 @@ body {
     padding: 10px;
 }
 
-img {
+.Img1 {
     width: 154px;
     height: 230px;
     object-fit: cover;
     border-radius: 30px;
+}
+
+.Img2 {
+    margin-right: 23px;
 }
 
 .HeadCont {
@@ -65,6 +69,14 @@ h3 {
     margin: 0px;
     font-size: 9px;
     font-weight: 500;
+}
+
+h4 {
+    color: #6E7880;
+    margin: 0px;
+    font-size: 58px;
+    font-weight: 550;
+    text-align: center;
 }
 
 .Nav {
@@ -97,4 +109,10 @@ h3 {
     height: 183px;
     border-radius: 15px;
     padding: 40px 25px 40px 25px;
+}
+
+.StatDesc {
+    margin: 0px;
+    font: 500 16px Arial;
+    text-align: center;
 }

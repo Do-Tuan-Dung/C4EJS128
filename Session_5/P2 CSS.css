@@ -36,6 +36,10 @@ body {
     padding: 10px;
 }
 
+img:hover {
+    filter: brightness(1.1);
+}
+
 .Img1 {
     width: 154px;
     height: 230px;

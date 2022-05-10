@@ -3,29 +3,26 @@
 
 //Bài 1
 let B1 = ""
-for(dot = '*'; dot.length <= 20; dot += '*') {
-    B1 += dot + '\n';
+for(dot1 = '*'; dot1.length <= 10; dot1 += '*') {
+    B1 += dot1 + '\n';
 }
 
-console.log(B1)
+console.log(B1);
 
 //Bài 2
-
-    let B2 = "";
-    for (x = 1; x <= 15; x++) {
-        for (y = 1; y <= 15 - x; y++) {
-            B2 += "   ";
-        }
-        for (m = 15 - x + 1; m < 15 + 1; m++) {
-            B2 += "*  ";
-        }
-        for (n = 15 + 1; n <= 2 * 15 - 1; n++) {
-            B2 += "   ";
-        }
-        B2 += '\n';
+let B2 = ""
+let n2 = 10
+for(x2 = 1; x2 <= n2; x2++) {
+    for(Space = 1; Space <= n2 - x2; Space++) {
+        B2 += " ";
     }
+    for(Star = 0; Star < 2 * x2 - 1; Star++) {
+        B2 += "*";
+    }
+    B2 += '\n';
+}
 
-console.log(B2)
+console.log(B2);
 
 //Bài 3
 let B3 = ''
@@ -43,3 +40,29 @@ for(e = 1; e <= 11; e++) {
 }
 console.log(B3);
 
+//Bài 4
+let B4 = '';
+let n4 = 5;                                                   // Column
+
+for (let i = 0; i < n4; i++) {                                // Reversed pyramid pattern
+    for (let j = 0; j < i; j++) {                             // Printing spaces
+        B4 += " ";
+    }
+    for (let k = 0; k < (n4 - i) * 2 - 1; k++) {              // Printing star
+        B4 += "*";
+    }
+    B4 += "\n";
+}
+
+for (let i = 2; i <= n4; i++) {                               // Pyramid pattern
+    for (let j = n4; j > i; j--) {                            // Printing spaces
+        B4 += " ";
+    }
+    for (let k = 0; k < i * 2 - 1; k++) {                     // printing star
+        B4 += "*";
+    }
+    B4 += "\n";
+}
+console.log(B4);
+
+//Bài 5

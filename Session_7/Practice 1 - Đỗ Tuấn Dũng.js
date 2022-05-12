@@ -66,3 +66,28 @@ for (let i = 2; i <= n4; i++) {                               // Pyramid pattern
 console.log(B4);
 
 //Bài 5
+let B5 = '';
+let col = 10
+for (m = 1; m <= 5; m++) {
+    for (n = 1; n <= col; n++) {
+        if (m <= 5) {
+            if (n === col / 2 + 1 - m || n === col / 2 + m) {
+                B5 += '*';
+            } else {
+                B5 += ' ';
+            }
+        } 
+    }
+    B5 += '\n'
+}
+for (o = 4; o >= 1; o--) {
+    for (let p = 1; p <= col; p++) {
+        if (p === col / 2 + 1 - o || p === col / 2 + o) {
+          B5 += '*';
+        } else {
+          B5 += ' ';
+        }
+    }
+    B5 += '\n';
+}
+console.log(B5);

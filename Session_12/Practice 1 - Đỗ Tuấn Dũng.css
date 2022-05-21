@@ -1,0 +1,93 @@
+.Backgr {
+    background: url(https://cdn.donmai.us/original/d8/fd/__touhou_drawn_by_cronstatd__d8fdf135234b62da3ac8188c913ed997.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.Backgr::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Wrapper {
+    display: flex;
+    color: rgb(219, 219, 219);
+    width: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font: 550 20px 'Muli', sans-serif;
+    text-shadow: 3px 3px rgb(65, 65, 65)
+}
+
+.Vert {
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    flex: 1;
+    border-radius: 40px;
+    margin: 10px;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+}
+
+.Vert.Selected {
+    flex: 10;
+    cursor: default;
+}
+
+.Vert h1 {
+    opacity: 0;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    margin: 0px;
+}
+
+.Vert.Selected h1 {
+    opacity: 1;
+}
+
+.Ichi {
+    background-color: white;
+    background: url(https://cdn.donmai.us/sample/8e/10/__hinanawi_tenshi_nagae_iku_and_nagae_iku_touhou_and_1_more_drawn_by_haru_akira__sample-8e1077052887622b7ffca4d260c9c908.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.Ni {
+    background-color: white;
+    background: url(https://cdn.donmai.us/sample/6e/5b/__hakurei_reimu_kirisame_marisa_ibaraki_kasen_and_hakurei_reimu_touhou_and_1_more_drawn_by_u_joe__sample-6e5ba68608a1d16f1e8709ee59ad1e39.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.San {
+    background: url(https://cdn.donmai.us/sample/73/51/__touhou_and_1_more_drawn_by_kaliningradg__sample-735100bc8f859b42972623221bfec787.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.Yon {
+    background: url(https://cdn.donmai.us/sample/e3/6a/__kirisame_marisa_remilia_scarlet_izayoi_sakuya_flandre_scarlet_patchouli_knowledge_and_3_more_touhou_and_1_more_drawn_by_keto_chuusa__sample-e36a80cd016ae5649e409f01d4ddb18a.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.Go {
+    background: url(https://cdn.donmai.us/sample/3c/ea/__kochiya_sanae_touhou_drawn_by_u_joe__sample-3cea6e1b2cd56249d99d007dccc198f0.jpg) no-repeat center;
+    background-size: cover;
+}

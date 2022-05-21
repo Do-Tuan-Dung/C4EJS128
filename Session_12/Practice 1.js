@@ -1,14 +1,16 @@
-const block = document.querySelectorAll(".Vert")
+const imageBlock = document.querySelectorAll(".Vert")
 
-function removeActiveClasses() {
-    block.forEach (block => {
-        block.classList.remove('Selected')
+function removeSelected() {
+    imageBlock.forEach (imageBlock => {
+        imageBlock.classList.remove('Selected')
     })
 }
 
-block.forEach (block => {block.addEventListener ('click',
-    () => {
-        removeActiveClasses()
-        block.classList.add('Selected')
-    })
+imageBlock.forEach (imageBlock => {
+    imageBlock.addEventListener ('click',
+        () => {
+            removeSelected()
+            imageBlock.classList.add('Selected')
+        }
+    )
 })

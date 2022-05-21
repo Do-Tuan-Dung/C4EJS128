@@ -10,8 +10,19 @@ function getRandomNumber(num) {
     
 }
 
+function getAPI() {
+    fetch(QUOTE_API)
+        .then((res) => {
+            console.log(res);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+}
+
 function changeQuote() {
     const RandomNum = 'getRandomNumber(quotes.length)';
+//  const RandomNum = getAPIquote()
 
     changeText('quote', quotes[RandomNum].quote);
     changeText('author', quotes[RandomNum].author);
